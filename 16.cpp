@@ -1,11 +1,9 @@
-//backward loop
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    int n=15
-    for(int i=1;i<=n;i--){
-    cout<<i;
-    if(i==0){
-    break;}
-}
+
+int main() {
+    for(int i = 4; i >= 1; i--) {
+        cout << i << " ";
+    }
+    return 0;
 }
